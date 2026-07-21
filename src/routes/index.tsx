@@ -13,6 +13,7 @@ import { FAQ } from "@/components/site/FAQ";
 import { Enquiry } from "@/components/site/Enquiry";
 import { Footer } from "@/components/site/Footer";
 import { StickyBar } from "@/components/site/StickyBar";
+import { Location } from "@/components/site/Location";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -33,6 +34,7 @@ function Index() {
         <Gallery />
         <Testimonials />
         <FAQ />
+        <Location />
         <Enquiry />
       </main>
       <Footer />
