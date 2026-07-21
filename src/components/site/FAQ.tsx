@@ -5,18 +5,47 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-
 const faqs = [
-  { q: "How do I book a venue at Zamra?", a: "Submit an enquiry with your event type, date and expected guest count. Our team will respond within one working day to schedule a venue visit and confirm availability." },
-  { q: "What is the booking process and timeline?", a: "After your site visit, we issue a proposal with the venue, configuration and coordination scope. A signed agreement and a booking deposit secure the date." },
-  { q: "Is there sufficient parking for large events?", a: "Yes. Our campus includes over 1,000 dedicated on-site parking spaces with attendants for peak-hour flow." },
-  { q: "Can we use our own decorators and caterers?", a: "Absolutely. We work with your preferred vendors and coordinate their access, timing and setup with our on-site team." },
-  { q: "What is the maximum capacity of your venues?", a: "The Grand Hall accommodates up to 5,000 guests. Every venue can be configured for smaller, more intimate events as well." },
-  { q: "Is the venue wheelchair accessible?", a: "Every public space at Zamra is step-free with accessible restrooms and dedicated parking. Please let us know of specific requirements in advance." },
-  { q: "Where is Zamra located?", a: "Zamra is located in Kochi, Kerala, with easy connectivity from Cochin International Airport, Ernakulam Junction, and the NH-66 corridor." },
-  { q: "Do you provide event coordination support?", a: "Yes — professional coordination is included with every venue booking. This is the Zamra Event Experience, exclusive to our venue clients." },
-  { q: "How far in advance should I book?", a: "For weddings and large events we recommend booking 6–12 months in advance. Corporate events and smaller conferences can often be accommodated with 4–8 weeks' notice." },
-  { q: "Can I schedule a venue visit before booking?", a: "Yes, and we recommend it. Site visits are by appointment and take around 45 minutes." },
+  {
+    q: "How do I book Zamra for my event?",
+    a: "Simply submit an enquiry with your event details, preferred date, and expected guest count. Our team will contact you to discuss your requirements, confirm availability, and guide you through the booking process.",
+  },
+  {
+    q: "What types of events can Zamra host?",
+    a: "Zamra is designed to host weddings, receptions, exhibitions, conferences, corporate events, cultural programs, trade shows, family celebrations, and other large-scale gatherings.",
+  },
+  {
+    q: "Can the venue be customised for different events?",
+    a: "Yes. Our flexible event spaces can be configured to suit different layouts, seating arrangements, staging requirements, and event styles, ensuring every occasion is tailored to your needs.",
+  },
+  {
+    q: "Is parking available for guests?",
+    a: "Yes. Zamra offers spacious on-site parking to ensure convenient access for guests attending events of all sizes.",
+  },
+  {
+    q: "Can we choose our own decorators and caterers?",
+    a: "Yes. We work closely with your preferred vendors and coordinate schedules, access, and event logistics to ensure smooth execution.",
+  },
+  {
+    q: "Do you provide event management support?",
+    a: "Absolutely. Our experienced team assists with planning, venue coordination, technical arrangements, vendor management, logistics, and on-site event execution for a seamless experience.",
+  },
+  {
+    q: "Is the venue fully air-conditioned?",
+    a: "Yes. Zamra's event spaces are fully air-conditioned and supported by reliable power backup to ensure guest comfort throughout your event.",
+  },
+  {
+    q: "Is Zamra wheelchair accessible?",
+    a: "Yes. Our venue is designed to provide convenient access for all guests. If you have specific accessibility requirements, our team will be happy to assist.",
+  },
+  {
+    q: "Where is Zamra International Convention & Exhibition Centre located?",
+    a: "Zamra is located in Kalamassery, Kochi, with excellent connectivity to major roads, Cochin International Airport, railway stations, and key business districts.",
+  },
+  {
+    q: "Can I visit the venue before booking?",
+    a: "Certainly. We encourage prospective clients to schedule a venue visit to explore the facilities, discuss event requirements, and meet our event coordination team.",
+  },
 ];
 
 export function FAQ() {
