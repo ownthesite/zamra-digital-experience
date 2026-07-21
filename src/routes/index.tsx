@@ -24,7 +24,7 @@ function Index() {
       <Nav />
       <main>
         <Hero />
-        <TrustStrip />
+        {/* <TrustStrip /> */}
         <EventTypes />
         <Venues />
         <Experience />

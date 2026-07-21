@@ -43,20 +43,6 @@ export function Hero() {
             </a>
           </div>
         </div>
-
-        <div className="mt-16 hidden md:grid grid-cols-4 gap-6 max-w-3xl border-t border-background/15 pt-6">
-          {[
-            ["15+", "Years hosting Kerala's most important events"],
-            ["2,500+", "Weddings, conferences and exhibitions delivered"],
-            ["5,000", "Guest capacity across our largest hall"],
-            ["1,000+", "On-site parking spaces"],
-          ].map(([n, t]) => (
-            <div key={t}>
-              <div className="stat-num text-background text-3xl">{n}</div>
-              <div className="mt-2 text-xs text-background/70 leading-relaxed">{t}</div>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );

@@ -2,12 +2,36 @@ import { SectionHeading } from "./SectionHeading";
 import img from "@/assets/experience.jpg";
 
 const phases = [
-  { n: "01", t: "Initial Consultation", d: "We listen first. Your vision, guests, timing, and priorities shape every decision that follows." },
-  { n: "02", t: "Venue Configuration", d: "Layout, seating, staging and lighting tailored to the specifics of your event." },
-  { n: "03", t: "Technical Coordination", d: "AV, live streaming, presentation systems and lighting rigs managed end to end." },
-  { n: "04", t: "Logistics Support", d: "Vendor access, catering flow, guest movement, parking and timing — coordinated by us." },
-  { n: "05", t: "On-Site Management", d: "A dedicated coordinator on the floor for the full duration of your event." },
-  { n: "06", t: "Post-Event", d: "Efficient teardown, feedback and follow-up so nothing is left unfinished." },
+  {
+    n: "01",
+    t: "Understanding Your Vision",
+    d: "Every successful event begins with a conversation. We take time to understand your goals, audience, style, timeline, and expectations to create an experience that reflects your vision.",
+  },
+  {
+    n: "02",
+    t: "Event Planning & Design",
+    d: "Our team develops the event concept, venue layout, timelines, décor coordination, and guest experience, ensuring every detail works together seamlessly.",
+  },
+  {
+    n: "03",
+    t: "Venue & Technical Coordination",
+    d: "From stage setup and seating arrangements to lighting, LED displays, audio-visual systems, and live streaming, we coordinate every technical requirement with precision.",
+  },
+  {
+    n: "04",
+    t: "Vendor & Logistics Management",
+    d: "We manage catering, entertainment, transportation, guest flow, vendor scheduling, parking, and operational logistics to keep your event running effortlessly.",
+  },
+  {
+    n: "05",
+    t: "On-Site Event Execution",
+    d: "Our experienced event managers oversee every stage of the event, coordinating vendors, managing schedules, handling last-minute requests, and ensuring everything proceeds flawlessly.",
+  },
+  {
+    n: "06",
+    t: "Event Wrap-Up",
+    d: "After the event concludes, we coordinate dismantling, vendor closure, post-event reviews, and follow-up to ensure every detail is completed professionally.",
+  },
 ];
 
 export function Experience() {
@@ -17,9 +41,15 @@ export function Experience() {
         <div className="grid md:grid-cols-12 gap-10 md:gap-16 items-start">
           <div className="md:col-span-5 md:sticky md:top-28">
             <SectionHeading
-              eyebrow="The Zamra Event Experience"
-              title={<>Professional coordination, included with every booking.</>}
-              intro="Zamra is a venue. When you book a Zamra venue, you also gain a coordination team that has run thousands of events. This service is exclusive to Zamra clients — it is not sold separately."
+              eyebrow="The Zamra Event Solutions Experience"
+              title={
+                <>
+                  Where Exceptional
+                  <br />
+                  Events Come Together.
+                </>
+              }
+              intro="Booking Zamra means more than reserving a venue. It means partnering with an experienced event team dedicated to delivering seamless weddings, conferences, exhibitions, celebrations, and corporate events through meticulous planning and flawless execution."
             />
             <div className="mt-8 rounded-xl overflow-hidden aspect-[4/3]">
               <img
@@ -37,9 +67,7 @@ export function Experience() {
                 <span className="absolute -left-[41px] md:-left-[49px] top-1 flex items-center justify-center h-8 w-8 rounded-full bg-background border border-border text-[11px] font-mono text-accent-hover">
                   {p.n}
                 </span>
-                <h3 className="font-heading text-primary text-xl md:text-2xl font-medium">
-                  {p.t}
-                </h3>
+                <h3 className="font-heading text-primary text-xl md:text-2xl font-medium">{p.t}</h3>
                 <p className="mt-2 text-muted-foreground leading-relaxed max-w-md">{p.d}</p>
               </li>
             ))}
